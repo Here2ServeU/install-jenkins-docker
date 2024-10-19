@@ -1,17 +1,5 @@
 ### Step One: Define Your Docker Compose File
-version: '3'
-services:
-  jenkins:
-    image: jenkins/jenkins:lts
-    container_name: jenkins
-    ports:
-      - "8080:8080"
-      - "50000:50000"
-    volumes:
-      - jenkins_home:/var/jenkins_home
-
-volumes:
-  jenkins_home:
+***Use the file, Docker-compose***
 
 ### Step Two: Run the Following Command
 docker-compose up -d
