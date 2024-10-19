@@ -1,8 +1,9 @@
 ### Step One: Define Your Docker Compose File
-***Use the file, Docker-compose***
+***Use content from Docker-compose to create a file with the same name on your system.***
+***Or, clone the repository to your local system.***
 
 ### Step Two: Run the Following Command
-docker-compose up -d
+* docker-compose up -d
 
 ### Step Three: Access Jenkins
 **Open a browser and go to http://localhost:8080** 
@@ -12,5 +13,5 @@ docker-compose up -d
 * docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 ### Step Four: Manage the Jenkins Container
-docker-compose down -d
+* docker-compose down -d
 
